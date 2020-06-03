@@ -65,6 +65,6 @@ function getStats(req, res) {
   .end({ pretty: true });
 
   res.type('application/xml');
-  res.set('x-template', 'stats.xsl')
+  res.set('x-template', 'stats.xslt')
   res.send(doc.toString());
 }
