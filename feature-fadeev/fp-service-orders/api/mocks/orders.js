@@ -51,7 +51,7 @@ function getOrders(req, res) {
 }
 
 function getStats(req, res) {
-  var doc = builder.create('cinema')
+  var doc = builder.create('stats')
     .ele('cinema')
       .att('date', '2020-05-21T17:40')
       .att('cinema_name', 'Kiev')
